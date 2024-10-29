@@ -1,0 +1,15 @@
+{
+  "name": "minimal",
+  "version": "1.0.0",
+  "description": "Hello and welcome to the ASP.NET Vue Starter Template with ASP.NET Minimal API and Vue 3.0. The only things this template contains are:",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dotnet watch --project ./server",
+    "start": "dotnet run --project ./server",
+    "deploy": "source ./scripts/deploy.sh",
+    "postinstall": "cd app && npm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
